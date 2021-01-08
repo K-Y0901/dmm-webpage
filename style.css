@@ -1,0 +1,329 @@
+
+* { 
+  margin: 0;
+  padding: 0; 
+}
+
+
+a{
+  text-decoration: none;
+}
+
+header{
+  width: 100%;
+  background-color: #EC715F;
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 70px;
+  width: 1024px;
+  
+}
+
+
+img{
+  height: 70px;
+}
+li{
+  list-style: none;
+  display: flex;
+}
+.main-nav{
+  display: flex;
+  padding: 27px 0;
+}
+
+.main-nav li{
+  padding: 0 30px;
+  
+}
+
+.main-nav a{
+  color: #FAFAFA;
+  font-size: 16px;
+}
+
+
+.main-visual{
+  background-image: url(img/mv.png);
+  background-size: cover;
+  height: 650px;
+}
+
+.main-content{
+  padding-top: 200px;
+  color: #FAFAFA;
+  text-align: center;
+}
+
+.main-content h1{
+  font-size: 64px;
+}
+
+.main-content p{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.portfolio{
+  background-color: #ECEFF1;
+  width: 100%;
+  height: 900px;
+  text-align: center;
+}
+
+.p-header{
+  padding-top: 90px;
+  padding-bottom: 8px;
+  font-size: 32px;
+  /* color: #000000; */
+  /* border-bottom: 3px solid #EC715F; */
+}
+.p-header::after{
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+}
+
+.p-content{
+  margin-top: 30px;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.picture{
+  display: grid;
+  margin-right: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* margin-bottom: 90px; */
+}
+
+.item img{
+  width: 300px;
+  height: 250px;
+  gap: 10px;
+  
+}
+
+.p-main{
+  width: 920px;
+  margin: 0 auto;
+}
+
+.feature{
+  width: 980px; 
+  margin: 0 auto;
+  text-align: center;
+}
+
+.f-title{
+  padding-top: 90px;
+  padding-bottom: 8px;
+  font-size: 32px;
+  color: #000000;
+  
+}
+
+.f-title::after{
+  content: "";
+  display: block;
+  margin: 0 auto; 
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+}
+
+.feature p{
+  padding: 30px 0;
+  font-size: 16px;
+  color: #000000;
+}
+
+.f-content{
+  display: flex;
+  padding-top: 30px;
+}
+
+.f-item{
+  width: 320px;
+  height: auto;
+  padding-right: 10px;
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+.f-item p{
+  text-align: left;
+}
+
+.f-content h3{
+  padding: 10px 0;
+}
+
+i{
+  width: 200px;
+  height: 80px;
+  text-align: center;
+}
+
+.profile{
+  background-color:#ECEFF1;
+  text-align: center;
+  width: 100%;
+
+}
+
+.pro-main{
+  width: 1024px;
+  margin: 0% auto;
+  
+}
+
+.p-head{
+  padding-top: 90px;
+  font-size: 32px;
+  padding-bottom: 8px;
+
+}
+
+.p-head ::after{
+  content: "";
+  display: block;
+  margin: 0 auto; 
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+}
+
+.p-text{
+  padding: 30px 0;
+  font-size: 16px;
+}
+
+.pro-content{
+  display: flex;
+  /* text-align: center; */
+  /* margin: 0 auto; */
+  padding-bottom: 90px;
+}
+
+.pro-image{
+  width: 512px;
+  margin: 0 auto;
+}
+
+.pro-image img{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.pro-text{
+  width: 512px;
+  
+}
+
+.pro-name h3{
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.pro-name p {
+  text-align: left;
+}
+
+.pro-skill h3{
+  font-size: 20px;
+  padding: 20px 0 5px;
+  text-align: left;
+
+}
+.pro-skill p{
+  text-align: left;
+}
+
+.contact{
+  width: 800px;
+  /* text-align: center; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact h2{
+padding: 90px 0 8px;
+font-size: 32px;
+}
+
+.contact h2::after{
+  content: "";
+  display: block;
+  margin: 0 auto; 
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+}
+
+.contact p{
+  margin-top: 30px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.co-main{
+  display: flex;
+}
+
+.c-info{
+width: 400px;
+padding-bottom: 90px;
+
+}
+
+.mail{
+  padding-bottom: 20px;
+}
+
+.mail h3{
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+
+.tell h3{
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.sns{
+width: 400px;
+}
+
+.sns-icon{
+  margin-top: 5px;
+  display: flex;
+  
+  /* padding-right: 20px; */
+}
+
+i{
+  margin-right: 20px;
+}
+
+footer{
+  background-color: #EC715F;
+  height: 60px;
+}
+
+footer p{
+  color: #ECEFF1;
+  font-size: 14px;
+  text-align: center;
+  padding: 22px 0;
+}
